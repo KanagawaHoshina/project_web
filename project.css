@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    border:2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    z-index: 10;
+}
+
+.main-text {
+    display: flex;    
+    flex-direction: column;
+    color: blueviolet;
+    z-index: 5;
+    text-align: center; 
+    padding: 150px 50px 50px 50px;
+}
+
+.start {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.main-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 80px;
+}
+
+.d-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.main-text > h1 {
+    font-size: 60px;
+}
+
+.container-skill {
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr); /* Two columns */
+    gap: 60px; /* Add space between grid items */
+    padding: 20px; /* Padding inside the container */
+    margin-top: 500px; /* Top margin to create space from other elements */
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center; /* Center align items horizontally */
+    background-color: beige;
+
+}
+
+.container-skill > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    max-width: 150px;
+}
